@@ -1,0 +1,156 @@
+/*.menu {
+  display: flex;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  width: 310px;
+  font-family: fantasy;
+}*/
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');/*"Zen Kurenaido" From Google Fonts 
+                        <style>@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');</style>*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Zen+Kurenaido&display=swap');/*"Ubuntu" From Google Fonts  
+                        <style>@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Zen+Kurenaido&display=swap');</style>*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');/*"Poppins" from Google Fonts
+                        <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');</style>*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background: lightgrey;
+  height: 100%;
+}
+
+/*Header Section Styling*/
+.header{
+  background: #111;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  position: fixed;
+  z-index: 999;
+}
+
+.menu{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 20px;
+  color: #fff;
+}
+
+.logo span{
+  color: crimson;
+}
+
+.text a{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.text a:hover{
+  opacity: 1;
+}
+
+/*Hoome Section Styling*/
+h3{
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: crimson;
+}
+
+.home{
+  background: url("/images/wallpaper.jpg");
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.texts{
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  bottom: 45%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages{
+  text-align: center;
+  padding: 50px;
+  background: #fff;
+  width: 800px;
+  box-shadow: 0 0 40px 5px #111;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.grid .languages a img{
+  border: 5px solid #111;
+  border-radius: 30px;
+}
+
+.grid .languages ul{
+  font-family: 'Ubuntu', sans-serif;
+  color: #111;
+}
+
+.grid .languages ul li{
+  text-align: left;
+  margin-top: 20px;
+}
